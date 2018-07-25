@@ -1,0 +1,14 @@
+# Standard runtime packages
+
+# Standard build time packages
+pytest
+pytest-cov
+pylint
+sphinx
+setuptools
+Flask
+
+# Gaikai runtime packages
+
+# Gaikai build time packages
+-e git+ssh://git@github.gaikai.org/cloud/py-standards.git@0.6.0#egg=py-standards-0.6.0
